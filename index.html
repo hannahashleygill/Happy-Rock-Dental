@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Project One - Homepage</title>
+	<title>happyrockdental.com</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -11,17 +11,16 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
 	<header>
-		<!-- header, h1, logo etc content -->
-		<h1>To schedule an appointment, please call 503-656-8426.</h1>
-		<!--<h2>Header Two</h2>
-		<h3>Header Three</h3>
-		<h4>Header Four</h4> -->
+		<h1>To schedule an appointment,<br>please call 503-656-8426.</h1>
+		
+		<a href="index.html"><img src="images/logo-drbob.png" alt="Happy Rock Dental Logo" style="width: 150px"></a>
+
 	</header>
 
 	<input id="mobile_menu" type="checkbox">
 
+    <!--
     <nav>
         <label for="mobile_menu"></label>
         <div>
@@ -30,16 +29,43 @@
             <a href="#">The Team</a>
         </div>
     </nav>
+-->
+ <nav class="nav">
+        <div class="icon">
+            <div class="hamburger"></div>
+        </div>
+        <div class="menu-mobile">
+            <a href="#intro-section">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>          
+    </nav>
+    <nav class="desktop">
+        <div class="menu-desktop">
+            <a href="#intro-section">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
 	<main>
 		<hr>
-		<p>Welcome to Happy Rock Dental, our office is family oriented where you can feel safe in a stress-free environment. You may be rest assured that in our office you are provided the highest quality of dentistry in a comfortable setting. Our services are provided with one thought in mind: the retention and care of your teeth.
+		<div class="bckgrd-img"><h2>Welcome to Happy Rock Dental</h2>
+		<p>Our office is family oriented where you can feel safe in a stress-free environment. You may be rest assured that in our office you are provided the highest quality of dentistry in a comfortable setting. Our services are provided with one thought in mind: the retention and care of your teeth.
 		</p>
+		</div>
 		<hr>
 		<div class="grid">
 			<div>         
-				<img id="video2_image" src="http://drbobeverett.com/wp-content/uploads/2013/05/1341788929-stratus-jquery-1.jpg" width="950" height="350" />
+				
 			</div>
 			<div>Column 2</div>
 
