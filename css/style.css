@@ -78,10 +78,12 @@ h4 {
 }
 hr { 
   display: block;
+  box-shadow: 5px 10px #000000;
   border-style: solid;
   border-width: 3px;
   border-color: red;
   margin: 0;
+
 
 }
 
