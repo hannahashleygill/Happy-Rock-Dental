@@ -18,6 +18,7 @@ function closeMobileMenu(){
 }
 
 
+
 function desktopMenu() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 50 && $(window).width() > 768) {
@@ -32,6 +33,8 @@ function desktopMenu() {
 $(toggleIcon);
 $(closeMobileMenu);
 $(desktopMenu);  
+
+
 
 // End of Your Code . Don't delete that line below!!
 });
