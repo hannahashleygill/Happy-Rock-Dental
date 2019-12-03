@@ -123,7 +123,7 @@ h5 {
   padding-top: 50px;
   text-align: left;
   margin-left: 15px;
-  margin-right: 850px;
+  margin-right: 160px;
   color: white;
   font-family: whitman; serif;
   font-size: 26px;
@@ -150,20 +150,57 @@ h6 {
 
 .new-patient-block {
   padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.flossy {
+.text-label {
+  text-transform: uppercase;
+  font-family: helvetica;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: #fff;
 }
+
 
 #new-description {
 
-  margin: 30px 880px 50px 15px;
+  margin: 30px 220px 50px 15px;
   text-align: left;
   font-family: whitman, serif;
   font-weight: 500px;
   font-style: normal;
   font-size: 18px;
   color: black;
+}
+
+.flossyfriend {
+  display: block;
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.flossyfriend {
+  animation: bounce 2s;
+  animation-iteration-count: infinite; 
+
+}
+
+@keyframes bounce {
+0%,
+25%,
+50%,
+75%,
+100% {
+transform: translateY(0);
+}
+40% {
+transform: translateY(-20px);
+}
+60% {
+transform: translateY(-12px);
+}
 }
 
 hr { 
@@ -385,6 +422,68 @@ a:hover { color: black; }
 	grid-gap: 40px;
   background-color: #CFCFCF;
 }
+
+/* image gallery animations */
+
+.gallery {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gallery {
+
+  padding: 30px;
+
+}
+
+.images-gallery {
+
+  padding: 15px;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  border:3px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*end image gallery animations*/
 
 .grey {
 	background-color: #4F4F4F;
