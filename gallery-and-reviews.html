@@ -2,34 +2,76 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>New Patient Resources</title>
-	<meta name="viewport" content="width=device-width">
+	<title>happyrockdental.com</title>
+	<meta name="viewport" content="Happy Rock Dental, home of the happy teeth">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.typekit.net/qxs5rhg.css">
+	<link rel="stylesheet" href="https://use.typekit.net/qxs5rhg.css">
 </head>
 <body>
-	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
 	<header>
-		<!-- header, h1, logo etc content -->
-		<h1>Your Project Name, or whatever</h1>
+		<h1>
+			To schedule an appointment,<br>please call 503-656-8426.
+		</h1>
+
+		<h2><a href="index.html"><img src="images/logo-drbob.png" id="logo-drbob" alt="Happy Rock Dental Logo" style="width:150px"></a></h2>
+
 	</header>
-	<nav>
-		<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
-		<ul>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
-		</ul>
-	</nav>
-	<main>
-	<!-- Main content here -->
-	</main>
+
+	<input id="mobile_menu" type="checkbox">
+
+ <nav class="nav">
+        <div class="icon">
+            <div class="hamburger"></div>
+        </div>
+        <div class="menu-mobile">
+            <a href="index.html">HOME</a>
+            <a href="the-team.html">MEET OUR TEAM</a>
+            <a href="new-patient.html">NEW PATIENT RESOURCES</a>
+            <a href="gallery-and-reviews.html">GALLERY AND REVIEWS</a>
+            <a href="index.html">CONTACT</a>
+        </div>          
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <main>
+    	<hr>
+    	<div class="grey">
+    		<h3></h3>
+    		<p>Welcome to Our Gallery!</p>
+			<div class="wrapper">
+  				<button class="animation">New Patient Information</button>
+			</div>
+			</div>
+		<hr>
+			<img src="images/gstone1.jpg" id="background" alt="Happy Rock Dental" style="width:cover"></a>
+		<hr>
+		<div class="grid">
+			<div id="cosmetic-dentistry"><iframe width="560" height="315" src="https://www.youtube.com/embed/vN6g-CHfRVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div><iframe width="560" height="315" src="https://www.youtube.com/embed/vIu0LRGODYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+			<div><iframe width="560" height="315" src="https://www.youtube.com/embed/yIGXTd-x5oY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+			<div><iframe width="560" height="315" src="https://www.youtube.com/embed/GEPN-j9CL0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		</div>
+		<hr>
+		<div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.4908716789337!2d-122.5957200487235!3d45.379267978997404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549576989ba47979%3A0x823a045632e09e3c!2sEverett%20Robert%20DMD!5e0!3m2!1sen!2sus!4v1573681242279!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" id="map"></iframe>
+		</div>
 	<footer>
-		<!-- footer content here -->
+		<div class="footer">&copy; Copyright 2019 Happy Rock Dental. 
+		All rights reserved.</div>
+		<div><a href="https://www.facebook.com/DrRobertEverettDentistry/" target="_blank"><img src="images/facebook.png" alt="Facebook" id="facebook"></a>
+		<a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter" id="twitter"></a>
+		<a href="https://www.google.com/search?source=hp&ei=wuneXbGRG-2x0PEPlomjsAM&q=Dr+Bob+Everett&oq=Dr+Bob+Everett&gs_l=psy-ab.3..0j0i22i30l9.3859.9421..9536...10.0..0.224.1966.23j1j1....2..0....1..gws-wiz.....6..0i362i308i154i357j0i131j0i22i10i30..10001:0,154.ZvBgt7rWliI&ved=0ahUKEwix-oyTqovmAhXtGDQIHZbECDYQ4dUDCAs&uact=5" target="_blank"><img src="images/google.png" alt="Google" id="google"></a>
+		</div>
 	</footer>
+	</main>
 	<!-- link for jquery -->
 	<script
   	src="https://code.jquery.com/jquery-3.4.1.min.js"
